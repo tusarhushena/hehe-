@@ -1,3 +1,4 @@
+"""
 class Fonts:
     def typewriter(text):
         style = {
@@ -2359,3 +2360,4 @@ class Fonts:
         for i, j in style.items():
             text = text.replace(i, j)
         return text
+"""
