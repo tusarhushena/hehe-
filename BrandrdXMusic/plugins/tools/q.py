@@ -1,3 +1,4 @@
+"""
 from io import BytesIO
 
 from httpx import AsyncClient, Timeout
@@ -322,3 +323,4 @@ __HELP__ = """
 """
 
 __MODULE__ = "Qᴜᴏᴛᴇ"
+"""
