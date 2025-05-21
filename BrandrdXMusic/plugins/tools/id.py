@@ -1,3 +1,4 @@
+"""
 from BrandrdXMusic import app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -19,3 +20,4 @@ def ids(_, message):
            f"ᴛʜɪs ɢʀᴏᴜᴩ's ɪᴅ ɪs: {message.chat.id}",
            reply_markup=markup
         )
+"""
