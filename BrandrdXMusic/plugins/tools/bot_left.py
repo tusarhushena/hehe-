@@ -1,4 +1,4 @@
-import random
+"""import random
 from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram import filters
@@ -44,3 +44,4 @@ async def on_left_chat_member(_, message: Message):
             await userbot.leave_chat(chat_id)
     except Exception as e:
         return
+"""
