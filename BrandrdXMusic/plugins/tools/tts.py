@@ -1,3 +1,4 @@
+"""
 import io
 
 from gtts import gTTS
@@ -39,3 +40,4 @@ __HELP__ = """
 """
 
 __MODULE__ = "Tᴛs"
+"""
