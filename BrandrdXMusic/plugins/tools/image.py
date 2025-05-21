@@ -1,3 +1,4 @@
+"""
 import os
 import shutil
 from re import findall
@@ -51,3 +52,4 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         await msg.delete()
         return await message.reply(f"Error in sending images: {e}")
+"""
