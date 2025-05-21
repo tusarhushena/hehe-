@@ -1,3 +1,4 @@
+"""
 import random
 import requests
 import time
@@ -46,3 +47,4 @@ async def quiz(client, message):
         type=PollType.QUIZ,
         correct_option_id=cid,
     )
+"""
