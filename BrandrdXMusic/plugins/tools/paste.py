@@ -1,3 +1,4 @@
+"""
 import asyncio
 import os
 import re
@@ -59,3 +60,4 @@ async def paste_func(_, message):
         
     except Exception:
         pass
+"""
