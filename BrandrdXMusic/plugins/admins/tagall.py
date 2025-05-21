@@ -1,3 +1,4 @@
+"""
 from BrandrdXMusic import app 
 import asyncio
 import random
@@ -236,3 +237,4 @@ async def cancel_spam(client, message):
         except:
             pass
         return await message.reply("🌷 𝐁𝐑𝐀𝐍𝐃𝐄𝐃 𝐓𝐀𝐆 𝐀𝐋𝐋 𝐏𝐑𝐎𝐂𝐄𝐒𝐒 𝐒𝐓𝐎𝐏𝐏𝐄𝐃 🎉")
+"""
