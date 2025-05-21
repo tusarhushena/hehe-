@@ -1,4 +1,4 @@
-import random
+"""import random
 from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram import filters
@@ -62,3 +62,4 @@ async def join_watcher(_, message):
                 await userbot.join_chat(f"{username}")
     except Exception as e:
         print(f"Error: {e}")
+"""
