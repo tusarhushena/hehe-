@@ -1,3 +1,4 @@
+"""
 import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -211,3 +212,4 @@ async def userinfo(_, message):
                 id, first_name, last_name, username, mention, status, dc_id, bio), reply_to_message_id=message.id)
         except Exception as e:
             await message.reply_text(str(e))
+"""
