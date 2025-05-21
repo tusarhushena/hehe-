@@ -1,3 +1,4 @@
+"""
 import asyncio
 
 from pyrogram import enums, filters
@@ -27,3 +28,4 @@ async def bots(client, message):
             await app.send_message(message.chat.id, text3)
     except FloodWait as e:
         await asyncio.sleep(e.value)
+"""
