@@ -1,3 +1,4 @@
+"""
 import asyncio
 
 from BrandrdXMusic import app
@@ -34,3 +35,4 @@ async def start(client: Client, message: Message):
             ]
         )
     )
+"""
