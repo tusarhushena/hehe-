@@ -1,3 +1,4 @@
+"""
 from BrandrdXMusic import app 
 import asyncio
 import random
@@ -286,3 +287,4 @@ async def cancel_spam(client, message):
             pass
         return await message.reply("๏ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss sᴛᴏᴘᴘᴇᴅ ๏")
           
+"""
