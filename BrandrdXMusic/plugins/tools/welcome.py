@@ -1,3 +1,4 @@
+"""
 import os
 from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
@@ -116,3 +117,4 @@ NEW GROUP
 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄: @{message.chat.username}
 ➖➖➖➖➖➖➖➖➖➖➖
 """)
+"""
