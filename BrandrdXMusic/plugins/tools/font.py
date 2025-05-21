@@ -1,3 +1,4 @@
+"""
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -186,3 +187,4 @@ async def style(c, m):
         await m.message.edit_text(new_text, reply_markup=m.message.reply_markup)
     except:
         pass
+"""
