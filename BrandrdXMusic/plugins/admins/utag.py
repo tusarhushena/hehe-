@@ -1,3 +1,4 @@
+"""
 import asyncio
 import random
 from pyrogram import Client, filters
@@ -70,3 +71,4 @@ async def stop_tagging(_, message):
         return await message.reply_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ sᴛᴏᴘᴘɪɴɢ ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢɢɪɴɢ...**")
     else:
         await message.reply_text("**ᴜᴛᴀɢ ᴘʀᴏᴄᴇss ɪs ɴᴏᴛ ᴀᴄᴛɪᴠᴇ**")
+"""
