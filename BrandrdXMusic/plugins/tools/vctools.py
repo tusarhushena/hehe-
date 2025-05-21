@@ -1,3 +1,4 @@
+"""
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from BrandrdXMusic import app
@@ -103,3 +104,4 @@ async def search(event):
             ]
             await msg.edit(result, link_preview=False, buttons=prev_and_next_btns)
             await session.close()
+"""
