@@ -1,3 +1,4 @@
+"""
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pymongo import MongoClient
@@ -25,3 +26,4 @@ async def mongo_command(client, message: Message):
             await message.reply(f"Failed to connect to MongoDB: {e}")
     else:
         await message.reply("𝗜𝗻𝘃𝗮𝗹𝗶𝗱 𝗠𝗼𝗻𝗴𝗼𝗗𝗕 𝗨𝗥𝗟 𝗳𝗼𝗿𝗺𝗮𝘁💔")
+"""
